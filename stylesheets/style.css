@@ -12944,14 +12944,21 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /* line 12, ../sass/_main.scss */
 .social-list {
   display: table;
+  width: 100%;
 }
-/* line 14, ../sass/_main.scss */
+/* line 15, ../sass/_main.scss */
 .social-list li {
   display: table-cell;
   padding: 0;
+  text-align: center;
+}
+/* line 19, ../sass/_main.scss */
+.social-list li a {
+  display: inline;
+  padding: 0;
 }
 
-/* line 20, ../sass/_main.scss */
+/* line 26, ../sass/_main.scss */
 .parallax-container {
   height: 100vh;
 }
