@@ -9,6 +9,14 @@
 		}
 	}
 }
+.social-list{
+	display: table;
+	li{
+		display: table-cell;
+		padding: 0;
+	}
+}
+//parallax
 .parallax-container{
 	height: 100vh;
 }
